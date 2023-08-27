@@ -162,3 +162,45 @@ nav li a:hover {
     font-weight: 700;
     line-height: 30px;
 }
+
+
+/* skills section */
+
+.skills {
+    text-align: center;
+    margin: 130px 230px;
+}
+
+.skill-title {
+    color: var(--dark-01);
+    background-color: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.skill-description {
+    color: var(--dark-03);
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.skill-cards {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+}
+
+.skill-card {
+    text-align: left;
+}
+
+.card-title {
+    color: var(--dark-01);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-description {
+    color: var(--dark-03);
+    font-size: 16px;
+}
